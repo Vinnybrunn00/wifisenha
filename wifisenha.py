@@ -2,6 +2,7 @@ import subprocess as sp
 from rich import print
 import pyfiglet as pg
 import time
+import sys
 import os
 
 limpar = 'cls'
@@ -9,6 +10,10 @@ os.system(limpar)
 
 banner = pg.figlet_format('Wifi Senha')
 print(banner)
+
+if sys.platform == 'Linux':
+	print('SEUS SISTEMA NÃO É WINDOWS!!!')
+	sys.exit()
 
 while True:
 	try:
