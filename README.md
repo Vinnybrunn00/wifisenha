@@ -1,23 +1,23 @@
-OBS: Esse programa exibe todas as senhas de redes wifi salvas no Windows.
+OBS: This program displays all wifi passwords saved in Windows.
 
-## INSTALAÇÃO
+## INSTALLATION
 
-- Primeiramente instale o python no seu Windows
+- First install python on your Windows
 
 > https://www.python.org/downloads/
 
-- Em seguida instale as dependencias
+- Then install the dependencies
 
 ```
 pip install -r requerimentos.txt
 ```
 
-## EXECUÇÃO
+## EXECUTION
 
 ```
 python wifisenha.py
 ```
-### OU
+### OR
 ```
 ./wifisenha.py
 ```
